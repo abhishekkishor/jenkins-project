@@ -1,7 +1,7 @@
 job('DSL-Job') {
     description("Writing a DSL Job")
     scm {
-        git("git@github.com:abhishekkishor/jenkinsproject.git", master)
+        git("https://github.com/abhishekkishor/jenkinsproject.git", master)
     }
 
     triggers {
