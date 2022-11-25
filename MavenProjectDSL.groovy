@@ -14,7 +14,7 @@ job('DSL-Job') {
 
     steps {
         
-        maven('install', 'jave-tomcat-sample/pom.xml')
+        maven('install', 'maven-samples/single-module/pom.xml')
     }
 
     publishers {
