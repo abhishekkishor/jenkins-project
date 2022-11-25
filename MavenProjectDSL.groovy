@@ -2,7 +2,7 @@ job('DSL-Job') {
     description("Writing a DSL Job")
     logRotator(2, 2)
     scm {
-        git("abhishekkishor/jenkinsproject.git", master)
+        git("git@github.com:abhishekkishor/jenkinsproject.git", master)
     }
 
     triggers {
